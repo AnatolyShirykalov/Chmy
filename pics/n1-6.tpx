@@ -1,0 +1,22 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="40" y1="37" x2="40" y2="79" arr2="h40"/>
+%  <line x1="33.3539" y1="46" x2="94.8461" y2="46" arr2="h40"/>
+%  <curve>40,43 50,46 68,74</curve>
+%  <line x1="65" y1="46" x2="65" y2="61" li="dot"/>
+%  <line x1="65" y1="61" x2="59" y2="46" li="dot"/>
+%  <line x1="59" y1="52.5" x2="53" y2="46" li="dot"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(185.65, 130.39)(0,0)
+  \put(0,0){\includegraphics{n1-6.pdf}}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(185.65, 130.39)(0,0)
+  \put(0,0){\includegraphics{n1-6}}
+  \end{picture}%
+\fi
+\end{figure}

@@ -1,0 +1,35 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="70" y1="30" x2="70" y2="90"/>
+%  <line x1="70" y1="30" x2="70" y2="90" arr2="h40"/>
+%  <line x1="57.7" y1="44" x2="130.3" y2="44" arr2="h40"/>
+%  <line x1="70" y1="44" x2="115" y2="85"/>
+%  <curve>75,50 80,65 95,75 125,80</curve>
+%  <text x="120" y="81.8" t="$y = \phi(x)$" tex="$y = \phi(x)$" h="5"/>
+%  <star x="80" y="44.2"/>
+%  <text x="78" y="37.6" t="$x_0$" tex="$x_0$" h="5"/>
+%  <line x1="80" y1="53" x2="80" y2="65" li="dot"/>
+%  <line x1="80.42" y1="65" x2="92.42" y2="65" li="dot"/>
+%  <line x1="93" y1="65" x2="93" y2="44" li="dot"/>
+%  <text x="92" y="39" t="$x_1$" tex="$x_1$" h="5"/>
+%  <star x="93" y="44"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(262.87, 181.42)(0,0)
+  \put(0,0){\includegraphics{n1-3.pdf}}
+  \put(182.27,152.50){\fontsize{14.23}{17.07}\selectfont $y = \phi(x)$}
+  \put(63.21,27.21){\fontsize{14.23}{17.07}\selectfont $x_0$}
+  \put(102.90,31.18){\fontsize{14.23}{17.07}\selectfont $x_1$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(262.87, 181.42)(0,0)
+  \put(0,0){\includegraphics{n1-3}}
+  \put(182.27,152.50){\fontsize{14.23}{17.07}\selectfont $y = \phi(x)$}
+  \put(63.21,27.21){\fontsize{14.23}{17.07}\selectfont $x_0$}
+  \put(102.90,31.18){\fontsize{14.23}{17.07}\selectfont $x_1$}
+  \end{picture}%
+\fi
+\end{figure}

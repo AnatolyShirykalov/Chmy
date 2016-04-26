@@ -1,0 +1,22 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="70" y1="28.6157" x2="70" y2="91.3843" arr2="h40"/>
+%  <line x1="46.2275" y1="40" x2="129.772" y2="40" arr2="h40"/>
+%  <line x1="70" y1="40" x2="116" y2="86"/>
+%  <curve>75,78 84,64 118,48</curve>
+%  <line x1="80" y1="40" x2="80" y2="69"/>
+%  <polyline>80,69 99,69 99,53 83,53 83,65 95,65 95,55 85,55 85,62 92,62 92,57</polyline>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(248.16, 189.27)(0,0)
+  \put(0,0){\includegraphics{n1-4.pdf}}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(248.16, 189.27)(0,0)
+  \put(0,0){\includegraphics{n1-4}}
+  \end{picture}%
+\fi
+\end{figure}
